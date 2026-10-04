@@ -12,7 +12,9 @@
     </div>
 
     <div>
-        <p>Bem vindos ao aprendizado!</p>
+        <p>Bem vindo, {{context.usuario}}. Bons estudos!</p>
+        <p><b>Idade:</b> {{(context.idade)}} Anos </p>
+        <a href="{{url_for('novapag')}}">Link para nova página</a>
         
     </div>
 </body>
